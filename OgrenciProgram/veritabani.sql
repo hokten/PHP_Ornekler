@@ -31,19 +31,19 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `ogrenciler`;
 CREATE TABLE IF NOT EXISTS `ogrenciler` (
   `ogrenci_id` int(11) NOT NULL AUTO_INCREMENT,
-  `ohrenci_numarasi` int(11) NOT NULL,
+  `ogrenci_numarasi` int(11) NOT NULL,
   `ad` varchar(500) COLLATE utf8_turkish_ci NOT NULL,
   `soyad` varchar(500) COLLATE utf8_turkish_ci NOT NULL,
   `programi` int(11) NOT NULL,
   PRIMARY KEY (`ogrenci_id`),
-  UNIQUE KEY `ohrenci_numarasi` (`ohrenci_numarasi`)
+  UNIQUE KEY `ogrenci_numarasi` (`ogrenci_numarasi`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 --
 -- Tablo döküm verisi `ogrenciler`
 --
 
-INSERT INTO `ogrenciler` (`ogrenci_id`, `ohrenci_numarasi`, `ad`, `soyad`, `programi`) VALUES
+INSERT INTO `ogrenciler` (`ogrenci_id`, `ogrenci_numarasi`, `ad`, `soyad`, `programi`) VALUES
 (1, 123, 'Ali', 'Veli', 1),
 (2, 124, 'Zeynep', 'ŞAHİN', 2);
 
