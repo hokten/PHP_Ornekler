@@ -26,7 +26,7 @@
       <file leaf-file-name="oyun.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oyun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="299" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1044">
+            <state line="10" column="24" selection-start="299" selection-end="314" vertical-scroll-proportion="-3.2" vertical-offset="216" max-vertical-offset="1044">
               <folding />
             </state>
           </provider>
@@ -53,13 +53,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dersekle.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dersekle.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dersekle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="19" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2196">
+            <state line="43" column="11" selection-start="1431" selection-end="1459" vertical-scroll-proportion="-10.4" vertical-offset="1080" max-vertical-offset="2196">
               <folding>
                 <marker date="1576654258485" expanded="true" signature="767:791" placeholder="SELECT * FRO..programlar..." />
                 <marker date="1576654258485" expanded="true" signature="1336:1424" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progliste.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progliste.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="26" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.288889" vertical-offset="140" max-vertical-offset="1188">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="derslistele.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/derslistele.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="7" selection-start="631" selection-end="631" vertical-scroll-proportion="0.46134663" vertical-offset="787" max-vertical-offset="1188">
+              <folding>
+                <marker date="1576662312249" expanded="true" signature="164:188" placeholder="SELECT * FRO..programlar..." />
               </folding>
             </state>
           </provider>
@@ -84,6 +104,8 @@
         <option value="$PROJECT_DIR$/progliste.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dersekle.php" />
+        <option value="$PROJECT_DIR$/derlistele.php" />
+        <option value="$PROJECT_DIR$/derslistele.php" />
       </list>
     </option>
   </component>
@@ -153,25 +175,51 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lab\PhpstormProjects\OgrenciProgram" />
       <recent name="C:\Users\lab\PhpstormProjects\untitled1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.oyun.php">
-    <configuration default="false" name="oyun.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/oyun.php">
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
     <configuration default="false" name="oyun.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/untitled1/oyun.php">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="derslistele1.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/untitled1/derslistele1.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="oyun.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/oyun.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="derslistele1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/derslistele1.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="81">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -183,18 +231,45 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.oyun.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.oyun.php" />
+    <configuration default="false" name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="81">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.oyun.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.derslistele1.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.oyun.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.derslistele1.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Built-in Web Server.Unnamed" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.oyun.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.oyun.php" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.derslistele1.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.derslistele1.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.oyun.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.oyun.php" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a35a940f-9246-488a-a12f-f03fc7fb4419" name="Default" comment="" />
@@ -205,7 +280,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -213,11 +288,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22430556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22430556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -243,7 +318,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -291,7 +366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oyun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="299" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1044">
+        <state line="10" column="24" selection-start="299" selection-end="314" vertical-scroll-proportion="-3.2" vertical-offset="216" max-vertical-offset="1044">
           <folding />
         </state>
       </provider>
@@ -299,20 +374,6 @@
     <entry file="file://$PROJECT_DIR$/prgekle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="0" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progliste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="615" selection-end="616" vertical-scroll-proportion="-6.7777777" vertical-offset="451" max-vertical-offset="1188">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="792" selection-end="802" vertical-scroll-proportion="-8.377778" vertical-offset="739" max-vertical-offset="1692">
           <folding />
         </state>
       </provider>
@@ -327,12 +388,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="22" selection-start="792" selection-end="802" vertical-scroll-proportion="-8.377778" vertical-offset="739" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progliste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.288889" vertical-offset="140" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dersekle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2196">
+        <state line="43" column="11" selection-start="1431" selection-end="1459" vertical-scroll-proportion="-10.4" vertical-offset="1080" max-vertical-offset="2196">
           <folding>
             <marker date="1576654258485" expanded="true" signature="767:791" placeholder="SELECT * FRO..programlar..." />
             <marker date="1576654258485" expanded="true" signature="1336:1424" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derslistele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="631" selection-end="631" vertical-scroll-proportion="0.46134663" vertical-offset="787" max-vertical-offset="1188">
+          <folding>
+            <marker date="1576662312249" expanded="true" signature="164:188" placeholder="SELECT * FRO..programlar..." />
           </folding>
         </state>
       </provider>
