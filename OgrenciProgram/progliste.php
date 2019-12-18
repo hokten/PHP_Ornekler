@@ -6,12 +6,7 @@
 </head>
 <body>
 <?php
-    try {
-        $dsn="mysql:host=127.0.0.1;port=3307;dbname=veritabani;charset=utf8";
-        $vt = new PDO($dsn,"root","");
-    } catch(PDOException $e) {
-        echo "Veritabanına bağlanılamadı : " . $e->getMessage();
-    }
+    require 'veritabani.php';
     $sql = "SELECT * FROM programlar";
     $sorgu = $vt->query($sql, PDO::FETCH_ASSOC);
     $kayitlar = $sorgu->fetchAll();

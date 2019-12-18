@@ -12,12 +12,7 @@
 
 <?php
 if(!empty($_POST)) {
-    try {
-        $dsn="mysql:host=127.0.0.1;port=3307;dbname=veritabani;charset=utf8";
-        $vt = new PDO($dsn,"root","");
-    } catch(PDOException $e) {
-        echo "Veritabanına bağlanılamadı : " . $e->getMessage();
-    }
+    require 'veritabani.php';
     $f_program_adi = $_POST["f_program_adi"];
     $sql = "INSERT INTO programlar (program_adi) VALUES(?)";
     $sorgu = $vt->prepare($sql);
