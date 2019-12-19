@@ -28,7 +28,7 @@ foreach($kayitlar as $kayit) {
 
     $psql = "SELECT program_adi FROM programlar WHERE program_id=?";
     $psorgu = $vt->prepare($psql);
-    $program_id = intval($kayit['programi']);
+    $program_id = intval($kayit['ogrenci_programi']);
     $psorgu->bindValue(1, $program_id, PDO::PARAM_INT);
     $psorgu->execute();
     $program_kayit = $psorgu->fetch(PDO::FETCH_ASSOC);
@@ -37,11 +37,13 @@ foreach($kayitlar as $kayit) {
     echo "<tr>";
     echo "<td>{$kayit['ogrenci_id']}</td>";
     echo "<td>{$kayit['ogrenci_numarasi']}</td>";
-    echo "<td>{$kayit['ad']}</td>";
-    echo "<td>{$kayit['soyad']}</td>";
+    echo "<td>{$kayit['ogrenci_ad']}</td>";
+    echo "<td>{$kayit['ogrenci_soyad']}</td>";
     echo "<td>{$program_kayit['program_adi']}</td>";
     echo "<td><a href='ogrsil.php?ogrid={$kayit['ogrenci_id']}'>SİL</a>";
-    echo " <a href='ogrduzenle.php?ogrid={$kayit['ogrenci_id']}'>DÜZENLE</a></td>";
+    echo " <a href='ogrduzenle.php?ogrid={$kayit['ogrenci_id']}'>DÜZENLE</a>";
+    echo " <a href='derskaydi.php?ogrid={$kayit['ogrenci_id']}'>DERS KAYIT</a>
+    </td>";
 
 
     echo "</tr>";

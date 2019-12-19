@@ -15,10 +15,10 @@ $kayitlar = $sorgu->fetchAll();
 echo "<table border='1'>";
 echo "<tr><th>Program ID</th><th>Program Adı</th></tr>";
 foreach($kayitlar as $kayit) {
-    $ders_id = $kayit['program_id'];
+    $prog_id = $kayit['program_id'];
     echo "<tr>";
     echo "<td>{$kayit['program_id']}</td>";
-    echo "<td><a href='derslistele1.php?progid=$ders_id'>{$kayit['program_adi']}</a></td>";
+    echo "<td><a href='derslistele1.php?progid=$prog_id'>{$kayit['program_adi']}</a></td>";
     echo "</tr>";
 }
 echo "</table>";
